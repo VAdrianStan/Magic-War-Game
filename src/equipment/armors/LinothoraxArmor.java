@@ -1,4 +1,7 @@
 package src.equipment.armors;
 
-public class LinothoraxArmor {
+public class LinothoraxArmor extends Armor{
+    public LinothoraxArmor(int armorPoints) {
+        super(armorPoints);
+    }
 }
